@@ -23,9 +23,9 @@ export function SeamphoreThresholdPage() {
   return (
     <FloatingIconsHero
       backgroundImageSrc="/1.png"
-      title="Seamphore"
+      title="Semaphore"
       subtitle="写作者好像是安静地敲击键盘，其实她在虚拟的世界站在最高点向世界大声宣告着——我在这里，你在哪里。"
-      ctaText="点击打开seamphore"
+      ctaText="点击打开semaphore"
       onCtaClick={() => navigate("/discover", { replace: true })}
       points={HERO_POINTS}
     />
